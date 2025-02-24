@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">Py<span>Nana.</span></div>
+        <nav>
+            <ul>
+                <li><a href="#banner" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+
+            </ul>
+        </nav>
+        <div class="top-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button type="button">LET'S TALK</button>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="top-text">
+            <p class="text">hello, my name is</p>
+            <h1 class="sub-title">nana <br>kwame</h1>
+            <p>I'm a <span>Python Developer</span></p>
+            <div class="social-icons">
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-facebook-messenger"></i></a>
+                <a><i class="fa-brands fa-x-twitter"></i></a>
+                <a><i class="fa-brands fa-telegram"></i></a>
+                <a><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h2 class="sub-title-2">about me</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id soluta repellendus quae maxime
+                        praesentium ipsam facilis. Tenetur, odio non esse nisi, explicabo voluptatibus soluta dolores,
+                        qui saepe nesciunt excepturi perspiciatis.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <p>HTML</p>
+                                <div class="container">
+                                    <div class="skills html">100%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="container">
+                                    <div class="skills css">80%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="container">
+                                    <div class="skills js">60%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="container">
+                                    <div class="skills python">75%</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at EI Institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Intership at Ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Designing Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="images/user.png" alt="User's image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <h2 class="sub-title-2">my services</h2>
+
+            <div class="row-cards">
+                <figure class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <figcaption>
+                        <h3>Web Design</h3>
+                        <p>Focus on how you can help and benefit your user. Use simple words so that you dont't confuse
+                            people.</p>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <figcaption>
+                        <h3>Web Design</h3>
+                        <p>Focus on how you can help and benefit your user. Use simple words so that you dont't confuse
+                            people.</p>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <figcaption>
+                        <h3>Web Design</h3>
+                        <p>Focus on how you can help and benefit your user. Use simple words so that you dont't confuse
+                            people.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="sub-title-2">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the around. Download if from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the around. Download if from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the around. Download if from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row">
+            <div class="info">
+                <h4>PyNana</h4>
+                <p>Faucibus ornare suspendisse sed nisigittis volutpat odio facilisis mauris amet massa velit
+                    scelerisque.</p>
+
+                <div class="newsletter">
+                    <h5>Join our newsletter</h5>
+                    <input type="email" placeholder="Email address"> <button class="btn1" type="submit">JOIN</button>
+                </div>
+            </div>
+
+            <nav>
+                <h5>Site Menus</h5>
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <div class="polcies">
+                <h5>Information</h5>
+                <a href="">FAQ</a>
+                <a href="">Site Map</a>
+                <a href="">Cookies Policy</a>
+                <a href="contact.html">Contact Me</a>
+            </div>
+
+            <div class="personal-detials">
+                <h5>Contact us</h5>
+                <div>
+                    <span>Phone: (+233) 243 574622</span>
+                    <span>Fax: (+233) 243 574622</span>
+                    <span>Contact us at: info@mail.com</span>
+                </div>
+                <div class="social-icons-down">
+                    <h5>Social Icons</h5>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; <span id="year"></span> - Developed by Nana Kwame</p>
+            <p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+        <!-- <a class="arrow-up" href="#"><i class="fa-solid fa-arrow-circle-up"></i></a> -->
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
